@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (loginForm) {
         loginForm.addEventListener('submit', function(event) {
             event.preventDefault();
+
+            //pegando os valores e atribuindo às variáveis:
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
             
